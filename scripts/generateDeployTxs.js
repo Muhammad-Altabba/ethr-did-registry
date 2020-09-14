@@ -8,7 +8,7 @@ const gasLimits = {
   EthereumDIDRegistry: 2811144, // If this value needs to be recalculated, it can be done by deploying the rawTx once and looking at gasUsed in the receipt
 }
 
-generateDeployTx = (code, name) => {
+generateDeployTx = (code, name) => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
   const rawTx = {
     nonce: 0,
     gasPrice: 10000000000, // 10 Gwei
